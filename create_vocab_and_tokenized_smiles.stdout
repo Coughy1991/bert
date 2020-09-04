@@ -1,0 +1,44 @@
+WARNING:tensorflow:From create_vocab_and_tokenized_smiles.py:112: The name tf.app.run is deprecated. Please use tf.compat.v1.app.run instead.
+
+WARNING:tensorflow:From create_vocab_and_tokenized_smiles.py:64: The name tf.logging.set_verbosity is deprecated. Please use tf.compat.v1.logging.set_verbosity instead.
+
+W0904 14:51:03.880738 140735535653760 module_wrapper.py:139] From create_vocab_and_tokenized_smiles.py:64: The name tf.logging.set_verbosity is deprecated. Please use tf.compat.v1.logging.set_verbosity instead.
+
+WARNING:tensorflow:From create_vocab_and_tokenized_smiles.py:64: The name tf.logging.INFO is deprecated. Please use tf.compat.v1.logging.INFO instead.
+
+W0904 14:51:03.881030 140735535653760 module_wrapper.py:139] From create_vocab_and_tokenized_smiles.py:64: The name tf.logging.INFO is deprecated. Please use tf.compat.v1.logging.INFO instead.
+
+WARNING:tensorflow:From create_vocab_and_tokenized_smiles.py:66: The name tf.logging.info is deprecated. Please use tf.compat.v1.logging.info instead.
+
+W0904 14:51:03.881200 140735535653760 module_wrapper.py:139] From create_vocab_and_tokenized_smiles.py:66: The name tf.logging.info is deprecated. Please use tf.compat.v1.logging.info instead.
+
+INFO:tensorflow:*** Reading from input files ***
+I0904 14:51:03.881304 140735535653760 create_vocab_and_tokenized_smiles.py:66] *** Reading from input files ***
+INFO:tensorflow:input_file: raw_csv/sample_reaction_to_predict.csv
+I0904 14:51:03.881406 140735535653760 create_vocab_and_tokenized_smiles.py:67] input_file: raw_csv/sample_reaction_to_predict.csv
+INFO:tensorflow:train_ratio: 0.8
+I0904 14:51:04.001693 140735535653760 create_vocab_and_tokenized_smiles.py:75] train_ratio: 0.8
+INFO:tensorflow:val_ratio: 0.1
+I0904 14:51:04.001871 140735535653760 create_vocab_and_tokenized_smiles.py:76] val_ratio: 0.1
+INFO:tensorflow:input_data_length: 19563
+I0904 14:51:04.001958 140735535653760 create_vocab_and_tokenized_smiles.py:78] input_data_length: 19563
+INFO:tensorflow:train_data_length: 15650
+I0904 14:51:04.002031 140735535653760 create_vocab_and_tokenized_smiles.py:79] train_data_length: 15650
+INFO:tensorflow:val_data_length: 1956
+I0904 14:51:04.002096 140735535653760 create_vocab_and_tokenized_smiles.py:80] val_data_length: 1956
+INFO:tensorflow:len(train_data): 15650
+I0904 14:51:04.002302 140735535653760 create_vocab_and_tokenized_smiles.py:85] len(train_data): 15650
+INFO:tensorflow:len(val_data): 1956
+I0904 14:51:04.002368 140735535653760 create_vocab_and_tokenized_smiles.py:86] len(val_data): 1956
+INFO:tensorflow:len(test_data): 1957
+I0904 14:51:04.002433 140735535653760 create_vocab_and_tokenized_smiles.py:87] len(test_data): 1957
+INFO:tensorflow:*** Writing to train output files ***
+I0904 14:51:04.063843 140735535653760 create_vocab_and_tokenized_smiles.py:97] *** Writing to train output files ***
+INFO:tensorflow:*** Writing to validation output files ***
+I0904 14:51:04.534403 140735535653760 create_vocab_and_tokenized_smiles.py:99] *** Writing to validation output files ***
+INFO:tensorflow:*** Writing to test output files ***
+I0904 14:51:04.604609 140735535653760 create_vocab_and_tokenized_smiles.py:101] *** Writing to test output files ***
+INFO:tensorflow:*** Writing to vocab files ***
+I0904 14:51:04.663670 140735535653760 create_vocab_and_tokenized_smiles.py:104] *** Writing to vocab files ***
+INFO:tensorflow:number of tokens: 83
+I0904 14:51:04.663796 140735535653760 create_vocab_and_tokenized_smiles.py:105] number of tokens: 83
