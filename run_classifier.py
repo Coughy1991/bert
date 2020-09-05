@@ -203,6 +203,18 @@ class DataProcessor(object):
         lines.append(line)
       return lines
 
+  def _read_txt(cls, input_file):
+    """Reads a tab separated value file."""
+    with tf.gfile.Open(input_file, "r") as f:
+      lines = []
+      while True:
+        line = f.readline()
+        if not line:
+          break
+        line = line.strip()
+        if len(line) > 0:
+          lines.append(line)
+      return lines
 
 class XnliProcessor(DataProcessor):
   """Processor for the XNLI data set."""
